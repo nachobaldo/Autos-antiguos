@@ -44,13 +44,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 46%;
-    height: 46%;
+    width: 30rem;
+    height: 30rem;
     padding-top: 15px;
         img{
             width: 30rem;
             height: 30rem;
         }
+}
+
+.cajaimg:hover{
+    transform: rotate(20deg);
+   
 }
 
 .cajaTextIndex{
@@ -107,6 +112,8 @@
     justify-content: center;
 }
 
+
+
 .containerIcon{
     display: flex;
     grid-column: 1/2;
@@ -119,7 +126,11 @@
     border-radius: 50%;
     margin: 40px 10px 40px 10px;
     color: rgb(201, 199, 199);
-    transition: all 0.5s;
+    transition-duration: 2s;
+}
+
+.containerIcon:hover{
+    transform: scale(2);
 }
 
 .ContainerFoot2{
@@ -190,6 +201,12 @@ padding-top: 20px;
     width: 100px;
     height: 40px;
     margin-left: 20px;
+    transition: all;
+    transition-duration: 2s;
+}
+
+.button:hover{
+    transform: scale(2);
 }
 
 .styleRell{
@@ -230,6 +247,8 @@ padding-top: 20px;
         height: 10rem;
     }
 
+
+
     .cajaimg{
         img{
             width: 15rem;
@@ -239,8 +258,8 @@ padding-top: 20px;
 
     .container3{
         img{
-            width: 20rem;
-            height: 15rem;
+            width: 15rem;
+            height: 10rem;
         }
     }
 
