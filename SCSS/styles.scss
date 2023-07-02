@@ -23,6 +23,10 @@
     align-items: center;
     width: 5rem;
     padding: 5rem;
+        img{
+            width: 30rem;
+            height: 20rem;
+        }
 }
 
 .cajaLogo{
@@ -43,10 +47,14 @@
     width: 46%;
     height: 46%px;
     padding-top: 15px;
+        img{
+            width: 30rem;
+            height: 30rem;
+        }
 }
 
 .cajaTextIndex{
-   height: 20rem;
+   height: 50rem;
    width: 20rem;
     text-align: center;
 }
@@ -231,22 +239,20 @@ padding-top: 20px;
     .cajaTituloIndex{
         height: 5rem;
     }
-
+  
     .container3{
-        width: 75%
+        img{
+            height: 15rem;
+            width: 15rem;
+        }
     }
 
-    .cajaLogo{
-        width: 50%;
-        height: 50%;
+    .cajaimg{
+        img{
+            width: 15rem ;
+            height: 15rem;
+        }
     }
-    
-    .tamañoLogo{
-        width: 10rem;
-        height: 10rem;
-    }
-    
-
     /*Servicio*/
 
     .containerRellText{
@@ -276,7 +282,39 @@ padding-top: 20px;
         width: 20rem;
         height: 10rem;
     }
+
+    .cajaimg{
+        img{
+            width: 15rem;
+            height: 15rem;
+        }
+    }
+
+    .container3{
+        img{
+            width: 20rem;
+            height: 15rem;
+        }
+    }
+
+    .cajaTextIndex{
+        width: 15rem;
+        height: 15rem;
+        p{
+            text-align: center;
+            width: 15rem;
+            height: 15rem;
+        }
+    }
+
+    .cajaTituloIndex{
+        height: 10rem;
+            h2{
+                height: 15rem;
+        }
+    }
 }
  
+
 
 

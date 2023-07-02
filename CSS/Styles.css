@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   margin: 0px;
   padding: 0px;
@@ -27,6 +26,10 @@
   width: 5rem;
   padding: 5rem;
 }
+.container3 img {
+  width: 30rem;
+  height: 20rem;
+}
 
 .cajaLogo {
   display: flex;
@@ -45,9 +48,13 @@
   height: 46% px;
   padding-top: 15px;
 }
+.cajaimg img {
+  width: 30rem;
+  height: 30rem;
+}
 
 .cajaTextIndex {
-  height: 20rem;
+  height: 50rem;
   width: 20rem;
   text-align: center;
 }
@@ -223,16 +230,13 @@
   .cajaTituloIndex {
     height: 5rem;
   }
-  .container3 {
-    width: 75%;
+  .container3 img {
+    height: 15rem;
+    width: 15rem;
   }
-  .cajaLogo {
-    width: 50%;
-    height: 50%;
-  }
-  .tamañoLogo {
-    width: 10rem;
-    height: 10rem;
+  .cajaimg img {
+    width: 15rem;
+    height: 15rem;
   }
   /*Servicio*/
   .containerRellText {
@@ -255,6 +259,29 @@
   .cajatext {
     width: 20rem;
     height: 10rem;
+  }
+  .cajaimg img {
+    width: 15rem;
+    height: 15rem;
+  }
+  .container3 img {
+    width: 20rem;
+    height: 15rem;
+  }
+  .cajaTextIndex {
+    width: 15rem;
+    height: 15rem;
+  }
+  .cajaTextIndex p {
+    text-align: center;
+    width: 15rem;
+    height: 15rem;
+  }
+  .cajaTituloIndex {
+    height: 10rem;
+  }
+  .cajaTituloIndex h2 {
+    height: 15rem;
   }
 }
 
