@@ -198,8 +198,6 @@
 }
 
 /*media query-----------*/
-/*inicio---------*/
-/*main-------*/
 @media (max-width: 1024px) {
   .container1 {
     display: flex;
@@ -213,34 +211,6 @@
     height: 12rem;
   }
 }
-/*@media(max-width: 425px) {
-    .cajaTextIndex{
-        height: 12rem;
-        width: 20rem;
-    }
-    .cajaTituloIndex{
-        height: 5rem;
-    }
-
-    .cajaimg{
-        img{
-            width: 15rem;
-            height: 15rem;
-        }
-    }
-    .containerRellText{
-        width: 100%;
-    }
-
-    .ContainerFoot2{
-        justify-content: center;
-    }
-
-    .cajatextFoot{
-        padding-right: 30px;
-    }
-
-}*/
 @media (min-width: 320px) and (max-width: 430px) {
   .ContainerFoot2 {
     justify-content: center;
