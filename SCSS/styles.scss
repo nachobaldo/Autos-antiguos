@@ -1,0 +1,266 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container1{
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    align-items: center
+}
+.container3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.cajaLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.cajaimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 46%;
+    height: 46%px;
+    padding-top: 15px;
+}
+
+.cajaTextIndex{
+   height: 20rem;
+   width: 20rem;
+    text-align: center;
+}
+
+.cajaTituloIndex{
+    width:20rem ;
+    height: 20rem;
+    text-align: center;
+}
+
+.cajatext{
+    width: 25rem;
+    height: 8rem;
+    text-align: center;
+}
+
+.margenSuperior{
+    padding: 50px;
+}
+.container2{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fuenteTitulo{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.fuenteP{
+    font-weight: normal;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.containerFoot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #91A3B5
+}
+
+.cajaIcon{
+    width: 60px;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerIcon{
+    display: flex;
+    grid-column: 1/2;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    min-height: 40px;
+    width: 40px;
+    background-color: #E6F2FF;
+    border-radius: 50%;
+    margin: 40px 10px 40px 10px;
+    color: rgb(201, 199, 199);
+    transition: all 0.5s;
+}
+
+.ContainerFoot2{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    align-items: center;
+    border-bottom: solid 1px rgb(33, 37, 41);
+    background-color: #91A3B5
+}
+
+.cajatextFoot{
+    text-align: center;
+    color: #fff;
+}
+
+.textFoot{
+    font-weight: bold;
+    font-style: normal;
+    font-size: 16px;
+    text-decoration: none;
+    color: #000;
+    padding-top: 40px;
+    transition: all ease;
+}
+
+
+.headerColor{
+    background-color: #91A3B5
+}
+
+.mainColor{
+    background-color: #F2F2F2;
+}
+
+.containerForm {
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.containerTextForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 100px;
+    padding-top: 30px;
+ }
+
+ .containerRell {
+    display: block;
+    text-align: center;
+    padding: 30px;
+}
+
+.containerRellText{
+display: flex;
+justify-content: center;
+align-items: center;
+padding-top: 20px;
+}
+
+.button{
+    width: 100px;
+    height: 40px;
+    margin-left: 20px;
+}
+
+.styleRell{
+    width: 800px;
+    height: 40px;
+}
+
+
+/*media query-----------*/
+/*inicio---------*/
+/*main-------*/
+
+@media(max-width: 1024px){
+    .container1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cajaTextIndex{
+        margin: 5px;
+        width: 40rem;
+        height: 10rem;
+    }
+
+    .cajaimg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }   
+    
+    /*Nosotros*/
+    .cajatext{
+        
+        margin-bottom: 50px;
+    }
+
+   .containerTextForm{
+    text-align: center;
+   }
+}
+
+@media(min-width: 425px) {
+    .cajaTextIndex{
+        height: 12rem;
+        width: 20rem;
+    }
+    .cajaTituloIndex{
+        height: 5rem;
+    }
+
+    .container3{
+        width: 75%
+    }
+
+    /*Servicio*/
+
+    .containerRellText{
+        width: 100%;
+    }
+
+    .ContainerFoot2{
+        justify-content: center;
+    }
+
+    .cajatextFoot{
+        padding-right: 30px;
+    }
+
+}
+
+@media(min-width: 375px){
+    .ContainerFoot2{
+        justify-content: center;
+    }
+
+    .ContainerFoot2{
+        padding: right 5px; ;
+    }
+
+    .cajatext{
+        width: 20rem;
+        height: 10rem;
+    }
+}
+ 
+
+
