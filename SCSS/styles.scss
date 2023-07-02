@@ -45,7 +45,7 @@
     justify-content: center;
     align-items: center;
     width: 46%;
-    height: 46%px;
+    height: 46%;
     padding-top: 15px;
         img{
             width: 30rem;
@@ -54,7 +54,7 @@
 }
 
 .cajaTextIndex{
-   height: 50rem;
+   height: 20rem;
    width: 20rem;
     text-align: center;
 }
@@ -67,8 +67,9 @@
 
 .cajatext{
     width: 25rem;
-    height: 8rem;
+    height: 10rem;
     text-align: center;
+    padding-bottom: 2rem;
 }
 
 .margenSuperior{
@@ -207,32 +208,17 @@ padding-top: 20px;
         flex-direction: column;
     }
 
-    .cajaTextIndex{
-        margin: 5px;
-        width: 40rem;
-        height: 10rem;
+    .cajaTituloIndex{
+        width: 15rem;
+        height: 5rem;
     }
-
-    .cajaimg{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }   
     
-    /*Nosotros*/
-    .cajatext{
-        
-        margin-bottom: 50px;
+    .cajaTextIndex{
+        height: 12rem;
     }
-
-   .containerTextForm{
-    text-align: center;
-   }
-
 }
 
-
-@media(min-width: 425px) {
+/*@media(max-width: 425px) {
     .cajaTextIndex{
         height: 12rem;
         width: 20rem;
@@ -241,20 +227,12 @@ padding-top: 20px;
         height: 5rem;
     }
   
-    .container3{
-        img{
-            height: 15rem;
-            width: 15rem;
-        }
-    }
     .cajaimg{
         img{
-            width: 15rem ;
+            width: 15rem;
             height: 15rem;
         }
     }
-    /*Servicio*/
-
     .containerRellText{
         width: 100%;
     }
@@ -267,9 +245,9 @@ padding-top: 20px;
         padding-right: 30px;
     }
 
-}
+}*/
 
-@media(min-width: 375px){
+@media(min-width: 320px) and (max-width: 430px){
     .ContainerFoot2{
         justify-content: center;
     }
@@ -312,6 +290,13 @@ padding-top: 20px;
             h2{
                 height: 15rem;
         }
+    }
+
+    .ContainerFoot2{
+        align-items: center;
+        justify-content: center;
+        justify-content: space-between;
+           
     }
 }
  
